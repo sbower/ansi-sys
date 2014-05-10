@@ -1,3 +1,6 @@
+* 2014-05-09 zunda <zunda at freeshell.org>
+- Migrate to GitHub from RubyForge. Thank you RubyForge.
+
 * 2011-02-24 zunda <zunda at freeshell.org>
 - spec/hiki_spec.rb: Modified not to use $KCODE on Ruby 1.9.2
 - Rspec now fails on 1 example on Ruby 1.9.2 - with many warnings
