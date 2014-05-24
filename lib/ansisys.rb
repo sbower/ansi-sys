@@ -529,7 +529,7 @@ module AnsiSys
 			when :text
 				''
 			when :html
-				%Q|<pre#{css_class ? %Q[ class="#{css_class}"] : ''}#{css_style ? %Q| style="#{css_style}"| : ''}>\n|
+				%Q|<span#{css_class ? %Q[ class="#{css_class}"] : ''}#{css_style ? %Q| style="#{css_style}"| : ''}>\n|
 			else
 				raise AnsiSysError, "Invalid format option to render: #{format.inspect}"
 			end
